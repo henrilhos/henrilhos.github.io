@@ -1,0 +1,20 @@
+{
+  "name": "henrique.zip",
+  "version": "1.0.0",
+  "description": "My resume",
+  "homepage": "https://henrique.zip",
+  "bugs": {
+    "url": "https://github.com/henrilhos/henrique.zip/issues"
+  },
+  "license": "ISC",
+  "author": "Henrique de Castilhos <hello@henrique.zip> (https://henrique.zip)",
+  "repository": "github:henrilhos/henrique.zip",
+  "scripts": {
+    "lint": "prettier . --write",
+    "tw": "npx tailwindcss -i ./index.css -o ./dist/index.css --watch"
+  },
+  "devDependencies": {
+    "prettier": "3.1.1",
+    "tailwindcss": "^3.4.0"
+  }
+}

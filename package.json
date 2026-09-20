@@ -1,14 +1,8 @@
 {
   "name": "henrique.zip",
-  "version": "1.0.0",
   "description": "My resume",
-  "homepage": "https://henrique.zip",
-  "bugs": {
-    "url": "https://github.com/henrilhos/henrilhos.github.io/issues"
-  },
-  "license": "ISC",
+  "private": true,
   "author": "Henrique de Castilhos <hello@henrique.zip> (https://henrique.zip)",
-  "repository": "github:henrilhos/henrilhos.github.io",
   "scripts": {
     "lint": "prettier . --write",
     "build": "tailwindcss -i ./index.css -o ./dist/index.css --minify",

@@ -4,11 +4,11 @@
   "description": "My resume",
   "homepage": "https://henrique.zip",
   "bugs": {
-    "url": "https://github.com/henrilhos/henrique.zip/issues"
+    "url": "https://github.com/henrilhos/henrilhos.github.io/issues"
   },
   "license": "ISC",
   "author": "Henrique de Castilhos <hello@henrique.zip> (https://henrique.zip)",
-  "repository": "github:henrilhos/henrique.zip",
+  "repository": "github:henrilhos/henrilhos.github.io",
   "scripts": {
     "lint": "prettier . --write",
     "tw": "npx tailwindcss -i ./index.css -o ./dist/index.css --watch"

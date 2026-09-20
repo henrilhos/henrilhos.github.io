@@ -11,7 +11,8 @@
   "repository": "github:henrilhos/henrilhos.github.io",
   "scripts": {
     "lint": "prettier . --write",
-    "tw": "npx tailwindcss -i ./index.css -o ./dist/index.css --watch"
+    "build": "tailwindcss -i ./index.css -o ./dist/index.css --minify",
+    "tw": "tailwindcss -i ./index.css -o ./dist/index.css --watch"
   },
   "devDependencies": {
     "prettier": "3.1.1",
